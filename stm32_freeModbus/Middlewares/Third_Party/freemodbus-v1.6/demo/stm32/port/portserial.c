@@ -37,14 +37,26 @@ void vMBPortSerialEnable(BOOL xRxEnable, BOOL xTxEnable)
    */
   if (xRxEnable)
   {
-	__HAL_UART_ENABLE_IT(&huart);
+	__HAL_UART_ENABLE_IT(&huart1, UART_IT_RXNE);
+  }
+  else
+  {
+	__HAL_UART_DISABLE_IT(&huart1, UART_IT_RXNE);
+  }
+  if (xTxEnable)
+  {
+	__HAL_UART_ENABLE_IT(&huart6, UART_IT_TXE);
+  }
+  else
+  {
+	__HAL_UART_DISABLE_IT(&huart6, UART_IT_TXE);
   }
 }
 
 BOOL xMBPortSerialInit(UCHAR ucPORT, ULONG ulBaudRate, UCHAR ucDataBits,
 	eMBParity eParity)
 {
-  return FALSE;
+  return TRUE;
 }
 
 BOOL xMBPortSerialPutByte(CHAR ucByte)
@@ -52,7 +64,10 @@ BOOL xMBPortSerialPutByte(CHAR ucByte)
   /* Put a byte in the UARTs transmit buffer. This function is called
    * by the protocol stack if pxMBFrameCBTransmitterEmpty( ) has been
    * called. */
-  return TRUE;
+  if (HAL_UART_Transmit(&huart6, (uint8_t*) &ucByte, 1, 0x01) != HAL_OK)
+	return FALSE;
+  else
+	return TRUE;
 }
 
 BOOL xMBPortSerialGetByte(CHAR *pucByte)
@@ -60,7 +75,10 @@ BOOL xMBPortSerialGetByte(CHAR *pucByte)
   /* Return the byte in the UARTs receive buffer. This function is called
    * by the protocol stack after pxMBFrameCBByteReceived( ) has been called.
    */
-  return TRUE;
+  if (HAL_UART_Receive(&huart6, (uint8_t*) pucByte, 1, 0x01) != HAL_OK)
+	return FALSE;
+  else
+	return TRUE;
 }
 
 /* Create an interrupt handler for the transmit buffer empty interrupt

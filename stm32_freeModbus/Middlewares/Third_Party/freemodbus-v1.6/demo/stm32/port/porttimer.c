@@ -27,34 +27,51 @@
 #include "mbport.h"
 
 /* ----------------------- static functions ---------------------------------*/
-static void prvvTIMERExpiredISR( void );
+static void prvvTIMERExpiredISR(void);
 
 /* ----------------------- Start implementation -----------------------------*/
-BOOL
-xMBPortTimersInit( USHORT usTim1Timerout50us )
+BOOL xMBPortTimersInit(USHORT usTim1Timerout50us)
 {
-    return FALSE;
+  /* Config the timer by 20khz(50us) */
+  HAL_TIM_Base_DeInit(&htim3);
+
+  htim3.Instance = TIM3;
+  htim3.Init.Prescaler = 1800 - 1;
+  htim3.Init.CounterMode = TIM_COUNTERMODE_UP;
+  htim3.Init.Period = usTim1Timerout50us - 1;
+  htim3.Init.ClockDivision = TIM_CLOCKDIVISION_DIV1;
+  htim3.Init.AutoReloadPreload = TIM_AUTORELOAD_PRELOAD_DISABLE;
+  if (HAL_TIM_Base_Init(&htim3) != HAL_OK)
+  {
+	return FALSE;
+  }
+
+  return TRUE;
 }
 
-
-inline void
-vMBPortTimersEnable(  )
+inline void vMBPortTimersEnable()
 {
-    /* Enable the timer with the timeout passed to xMBPortTimersInit( ) */
+  /* Enable the timer with the timeout passed to xMBPortTimersInit( ) */
+  __HAL_TIM_CLEAR_IT(&htim3, TIM_IT_UPDATE);
+  __HAL_TIM_SetCounter(&htim3, 0);
+  HAL_TIM_Base_Start_IT(&htim3);
 }
 
-inline void
-vMBPortTimersDisable(  )
+inline void vMBPortTimersDisable()
 {
-    /* Disable any pending timers. */
+  /* Disable any pending timers. */
+  HAL_TIM_Base_Stop_IT(&htim3);
+  __HAL_TIM_SetCounter(&htim3, 0);
+  __HAL_TIM_CLEAR_IT(&htim3, TIM_IT_UPDATE);
 }
 
 /* Create an ISR which is called whenever the timer has expired. This function
  * must then call pxMBPortCBTimerExpired( ) to notify the protocol stack that
  * the timer has expired.
  */
-static void prvvTIMERExpiredISR( void )
+//static
+void prvvTIMERExpiredISR(void)
 {
-    ( void )pxMBPortCBTimerExpired(  );
+  (void) pxMBPortCBTimerExpired();
 }
 

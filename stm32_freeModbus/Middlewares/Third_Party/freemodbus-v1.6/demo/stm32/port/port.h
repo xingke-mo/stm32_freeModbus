@@ -25,12 +25,18 @@
 #include <assert.h>
 #include <inttypes.h>
 
+/* ----------------------- stm32 includes -----------------------------------*/
+#include "tim.h"
+#include "usart.h"
+#include "Legacy/stm32_hal_legacy.h"
+/* --------------------------------------------------------------------------*/
+
 #define	INLINE                      inline
 #define PR_BEGIN_EXTERN_C           extern "C" {
 #define	PR_END_EXTERN_C             }
 
-#define ENTER_CRITICAL_SECTION( )   
-#define EXIT_CRITICAL_SECTION( )    
+#define ENTER_CRITICAL_SECTION( )   __disable_irq()
+#define EXIT_CRITICAL_SECTION( )    __enable_irq()
 
 typedef uint8_t BOOL;
 

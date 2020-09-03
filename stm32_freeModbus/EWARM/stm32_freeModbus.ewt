@@ -1226,6 +1226,9 @@
                 </file>
             </group>
             <file>
+                <name>$PROJ_DIR$\..\Drivers\TPUART\KnxDevice.c</name>
+            </file>
+            <file>
                 <name>$PROJ_DIR$\..\Middlewares\Third_Party\freemodbus-v1.6\demo\stm32\port\port.h</name>
             </file>
             <file>
@@ -1245,6 +1248,15 @@
             <name>CMSIS</name>
             <file>
                 <name>$PROJ_DIR$\..\Core\Src\system_stm32f1xx.c</name>
+            </file>
+        </group>
+        <group>
+            <name>NCN5120</name>
+            <file>
+                <name>$PROJ_DIR$\..\Drivers\NCN5120\ncn5120.c</name>
+            </file>
+            <file>
+                <name>$PROJ_DIR$\..\Drivers\NCN5120\ncn5120.h</name>
             </file>
         </group>
         <group>
@@ -1293,6 +1305,15 @@
             </file>
             <file>
                 <name>$PROJ_DIR$\..\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_uart.c</name>
+            </file>
+        </group>
+        <group>
+            <name>TPUART</name>
+            <file>
+                <name>$PROJ_DIR$\..\Drivers\TPUART\TPUART.c</name>
+            </file>
+            <file>
+                <name>$PROJ_DIR$\..\Drivers\TPUART\include\TPUART.h</name>
             </file>
         </group>
     </group>

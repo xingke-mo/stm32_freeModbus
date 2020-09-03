@@ -96,7 +96,7 @@ PR_BEGIN_EXTERN_C
  * registers should be updated and reading means that the modbus protocol
  * stack needs to know the current register values.
  *
- * \see eMBRegHoldingCB( ), eMBRegCoilsCB( ), eMBRegDiscreteCB( ) and 
+ * \see eMBRegHoldingCB( ), eMBRegCoilsCB( ), eMBRegDiscreteCB( ) and
  *   eMBRegInputCB( ).
  */
 typedef enum

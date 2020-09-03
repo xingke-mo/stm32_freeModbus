@@ -1,0 +1,839 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+    <fileVersion>4</fileVersion>
+    <fileChecksum>624308993</fileChecksum>
+    <configuration>
+        <name>stm32_freeModbus</name>
+        <outputs>
+            <file>$PROJ_DIR$\..\Middlewares\Third_Party\freemodbus-v1.6\modbus\functions\mbfunccoils.c</file>
+            <file>$PROJ_DIR$\..\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_pwr.c</file>
+            <file>$PROJ_DIR$\..\Middlewares\Third_Party\freemodbus-v1.6\modbus\ascii\mbascii.c</file>
+            <file>$PROJ_DIR$\..\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_exti.c</file>
+            <file>$PROJ_DIR$\..\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc.c</file>
+            <file>$PROJ_DIR$\..\Middlewares\Third_Party\freemodbus-v1.6\demo\stm32\port\portevent.c</file>
+            <file>$PROJ_DIR$\..\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_dma.c</file>
+            <file>$PROJ_DIR$\..\Core\Src\tim.c</file>
+            <file>$PROJ_DIR$\..\Core\Src\stm32f1xx_hal_timebase_tim.c</file>
+            <file>$PROJ_DIR$\..\Core\Src\usart.c</file>
+            <file>$PROJ_DIR$\..\demo.c</file>
+            <file>$PROJ_DIR$\..\Middlewares\Third_Party\freemodbus-v1.6\demo\stm32\port\port.h</file>
+            <file>$PROJ_DIR$\..\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_crc.c</file>
+            <file>$PROJ_DIR$\..\Middlewares\Third_Party\freemodbus-v1.6\demo\stm32\port\portserial.c</file>
+            <file>$PROJ_DIR$\..\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_flash_ex.c</file>
+            <file>$PROJ_DIR$\..\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio.c</file>
+            <file>$PROJ_DIR$\..\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc_ex.c</file>
+            <file>$PROJ_DIR$\..\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_tim_ex.c</file>
+            <file>$PROJ_DIR$\..\Core\Src\stm32f1xx_it.c</file>
+            <file>$PROJ_DIR$\..\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal.c</file>
+            <file>$PROJ_DIR$\..\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_cortex.c</file>
+            <file>$PROJ_DIR$\..\Core\Src\system_stm32f1xx.c</file>
+            <file>$PROJ_DIR$\..\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_flash.c</file>
+            <file>$PROJ_DIR$\..\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_tim.c</file>
+            <file>$PROJ_DIR$\..\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_uart.c</file>
+            <file>$PROJ_DIR$\..\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio_ex.c</file>
+            <file>$PROJ_DIR$\..\Middlewares\Third_Party\freemodbus-v1.6\modbus\rtu\mbcrc.c</file>
+            <file>$PROJ_DIR$\..\Middlewares\Third_Party\freemodbus-v1.6\demo\stm32\port\porttimer.c</file>
+            <file>$PROJ_DIR$\..\Middlewares\Third_Party\freemodbus-v1.6\modbus\functions\mbfuncdiag.c</file>
+            <file>$PROJ_DIR$\..\Middlewares\Third_Party\freemodbus-v1.6\modbus\mb.c</file>
+            <file>$PROJ_DIR$\..\Core\Src\freertos.c</file>
+            <file>$PROJ_DIR$\..\Core\Src\main.c</file>
+            <file>$PROJ_DIR$\..\Core\Src\crc.c</file>
+            <file>$PROJ_DIR$\..\Core\Src\stm32f1xx_hal_msp.c</file>
+            <file>$PROJ_DIR$\startup_stm32f103xb.s</file>
+            <file>$PROJ_DIR$\..\Core\Src\gpio.c</file>
+            <file>$PROJ_DIR$\stm32_freeModbus\Obj\stm32f1xx_hal_flash_ex.pbi</file>
+            <file>$PROJ_DIR$\stm32_freeModbus\Obj\list.pbi</file>
+            <file>$PROJ_DIR$\stm32_freeModbus\Obj\tasks.o</file>
+            <file>$PROJ_DIR$\stm32_freeModbus\Obj\stm32f1xx_hal_msp.pbi</file>
+            <file>$PROJ_DIR$\stm32_freeModbus\Obj\stm32f1xx_hal.pbi</file>
+            <file>$PROJ_DIR$\stm32_freeModbus\Obj\tasks.pbi</file>
+            <file>$PROJ_DIR$\stm32_freeModbus\Obj\heap_4.pbi</file>
+            <file>$PROJ_DIR$\stm32_freeModbus\Obj\stm32f1xx_hal_gpio_ex.pbi</file>
+            <file>$PROJ_DIR$\stm32_freeModbus\Obj\stm32f1xx_hal_pwr.pbi</file>
+            <file>$PROJ_DIR$\stm32_freeModbus\Obj\cmsis_os.pbi</file>
+            <file>$PROJ_DIR$\stm32_freeModbus\Obj\timers.pbi</file>
+            <file>$PROJ_DIR$\stm32_freeModbus\Obj\stream_buffer.pbi</file>
+            <file>$PROJ_DIR$\stm32_freeModbus\Obj\event_groups.pbi</file>
+            <file>$PROJ_DIR$\stm32_freeModbus\Obj\stream_buffer.o</file>
+            <file>$PROJ_DIR$\stm32_freeModbus\Obj\stm32f1xx_hal_rcc_ex.pbi</file>
+            <file>$PROJ_DIR$\stm32_freeModbus\Obj\heap_4.o</file>
+            <file>$PROJ_DIR$\stm32_freeModbus\Obj\stm32f1xx_hal_dma.pbi</file>
+            <file>$PROJ_DIR$\stm32_freeModbus\Obj\stm32f1xx_hal_tim_ex.o</file>
+            <file>$PROJ_DIR$\stm32_freeModbus\Obj\stm32f1xx_hal_gpio.pbi</file>
+            <file>$PROJ_DIR$\stm32_freeModbus\Obj\stm32f1xx_hal_uart.pbi</file>
+            <file>$PROJ_DIR$\stm32_freeModbus\Obj\stm32f1xx_hal_crc.pbi</file>
+            <file>$PROJ_DIR$\stm32_freeModbus\Obj\stm32f1xx_hal_rcc.pbi</file>
+            <file>$PROJ_DIR$\stm32_freeModbus\Obj\stm32f1xx_hal_tim_ex.pbi</file>
+            <file>$PROJ_DIR$\stm32_freeModbus\Obj\stm32f1xx_hal_tim.pbi</file>
+            <file>$PROJ_DIR$\stm32_freeModbus\Obj\queue.pbi</file>
+            <file>$PROJ_DIR$\stm32_freeModbus\Exe\stm32_freeModbus.out</file>
+            <file>$PROJ_DIR$\stm32_freeModbus\Obj\port.pbi</file>
+            <file>$PROJ_DIR$\stm32_freeModbus\Obj\croutine.pbi</file>
+            <file>$PROJ_DIR$\stm32_freeModbus\Obj\stm32_freeModbus.pbd</file>
+            <file>$PROJ_DIR$\stm32_freeModbus\Exe\stm32_freeModbus.hex</file>
+            <file>$PROJ_DIR$\stm32_freeModbus\Obj\mbfuncdisc.pbi</file>
+            <file>$PROJ_DIR$\stm32_freeModbus\Obj\mbfunccoils.pbi</file>
+            <file>$PROJ_DIR$\stm32_freeModbus\Obj\mbfuncdiag.pbi</file>
+            <file>$PROJ_DIR$\stm32_freeModbus\Obj\mbrtu.o</file>
+            <file>$PROJ_DIR$\stm32_freeModbus\Obj\mb.o</file>
+            <file>$PROJ_DIR$\stm32_freeModbus\Obj\mb.pbi</file>
+            <file>$PROJ_DIR$\stm32_freeModbus\Obj\mbcrc.o</file>
+            <file>$PROJ_DIR$\stm32_freeModbus\Obj\demo.o</file>
+            <file>$PROJ_DIR$\stm32_freeModbus\Obj\demo.pbi</file>
+            <file>$PROJ_DIR$\stm32_freeModbus\Obj\mbrtu.pbi</file>
+            <file>$PROJ_DIR$\stm32_freeModbus\Obj\mbcrc.pbi</file>
+            <file>$PROJ_DIR$\stm32_freeModbus\Obj\mbfuncholding.pbi</file>
+            <file>$PROJ_DIR$\stm32_freeModbus\Obj\mbfuncinput.pbi</file>
+            <file>$PROJ_DIR$\stm32_freeModbus\Obj\mbfuncother.pbi</file>
+            <file>$PROJ_DIR$\stm32_freeModbus\Obj\portserial.o</file>
+            <file>$PROJ_DIR$\stm32_freeModbus\Obj\porttimer.pbi</file>
+            <file>$PROJ_DIR$\stm32_freeModbus\Obj\mbfuncdiag.o</file>
+            <file>$PROJ_DIR$\stm32_freeModbus\Obj\mbascii.pbi</file>
+            <file>$PROJ_DIR$\stm32_freeModbus\Obj\mbascii.o</file>
+            <file>$PROJ_DIR$\stm32_freeModbus\Obj\porttimer.o</file>
+            <file>$PROJ_DIR$\stm32_freeModbus\Obj\mbutils.pbi</file>
+            <file>$PROJ_DIR$\stm32_freeModbus\Obj\mbfuncinput.o</file>
+            <file>$PROJ_DIR$\stm32_freeModbus\Obj\mbutils.o</file>
+            <file>$PROJ_DIR$\stm32_freeModbus\Obj\portevent.pbi</file>
+            <file>$PROJ_DIR$\stm32_freeModbus\Obj\portevent.o</file>
+            <file>$PROJ_DIR$\stm32_freeModbus\Obj\portserial.pbi</file>
+            <file>$PROJ_DIR$\stm32_freeModbus\Obj\mbfuncholding.o</file>
+            <file>$PROJ_DIR$\stm32_freeModbus\Obj\mbfuncother.o</file>
+            <file>$PROJ_DIR$\stm32_freeModbus\Obj\mbfuncdisc.o</file>
+            <file>$PROJ_DIR$\stm32_freeModbus\Obj\mbfunccoils.o</file>
+            <file>$PROJ_DIR$\stm32_freeModbus\Obj\croutine.o</file>
+            <file>$PROJ_DIR$\stm32_freeModbus\Obj\startup_stm32f103xb.o</file>
+            <file>$PROJ_DIR$\stm32_freeModbus\Obj\tim.pbi</file>
+            <file>$PROJ_DIR$\stm32_freeModbus\Obj\stm32f1xx_hal_timebase_tim.pbi</file>
+            <file>$PROJ_DIR$\stm32_freeModbus\Obj\stm32f1xx_hal_rcc.o</file>
+            <file>$PROJ_DIR$\stm32_freeModbus\Obj\portasm.o</file>
+            <file>$PROJ_DIR$\stm32_freeModbus\Obj\port.o</file>
+            <file>$PROJ_DIR$\stm32_freeModbus\Obj\usart.pbi</file>
+            <file>$PROJ_DIR$\stm32_freeModbus\Obj\stm32f1xx_hal_rcc_ex.o</file>
+            <file>$PROJ_DIR$\stm32_freeModbus\Obj\stm32f1xx_hal_exti.pbi</file>
+            <file>$PROJ_DIR$\stm32_freeModbus\Obj\gpio.pbi</file>
+            <file>$PROJ_DIR$\stm32_freeModbus\Obj\stm32f1xx_hal_flash.pbi</file>
+            <file>$PROJ_DIR$\stm32_freeModbus\Obj\list.o</file>
+            <file>$PROJ_DIR$\stm32_freeModbus\Obj\stm32f1xx_hal_crc.o</file>
+            <file>$PROJ_DIR$\stm32_freeModbus\Obj\event_groups.o</file>
+            <file>$PROJ_DIR$\stm32_freeModbus\Obj\stm32f1xx_hal_flash_ex.o</file>
+            <file>$PROJ_DIR$\stm32_freeModbus\Obj\cmsis_os.o</file>
+            <file>$PROJ_DIR$\stm32_freeModbus\Obj\stm32f1xx_hal_gpio_ex.o</file>
+            <file>$PROJ_DIR$\stm32_freeModbus\Obj\stm32f1xx_hal_pwr.o</file>
+            <file>$PROJ_DIR$\stm32_freeModbus\Obj\crc.pbi</file>
+            <file>$PROJ_DIR$\stm32_freeModbus\Obj\stm32f1xx_hal_cortex.pbi</file>
+            <file>$PROJ_DIR$\stm32_freeModbus\Obj\stm32f1xx_hal_tim.o</file>
+            <file>$PROJ_DIR$\stm32_freeModbus\Obj\stm32f1xx_hal_gpio.o</file>
+            <file>$PROJ_DIR$\stm32_freeModbus\Obj\stm32f1xx_hal_dma.o</file>
+            <file>$PROJ_DIR$\stm32_freeModbus\Obj\freertos.pbi</file>
+            <file>$PROJ_DIR$\stm32_freeModbus\Obj\stm32f1xx_hal_flash.o</file>
+            <file>$PROJ_DIR$\stm32_freeModbus\Obj\queue.o</file>
+            <file>$PROJ_DIR$\stm32_freeModbus\Obj\stm32f1xx_it.pbi</file>
+            <file>$PROJ_DIR$\stm32_freeModbus\Obj\timers.o</file>
+            <file>$PROJ_DIR$\stm32_freeModbus\Obj\system_stm32f1xx.pbi</file>
+            <file>$PROJ_DIR$\stm32_freeModbus\Obj\stm32f1xx_hal_uart.o</file>
+            <file>$PROJ_DIR$\stm32_freeModbus\Obj\gpio.o</file>
+            <file>$PROJ_DIR$\..\Middlewares\Third_Party\freemodbus-v1.6\modbus\functions\mbfuncholding.c</file>
+            <file>$PROJ_DIR$\..\Middlewares\Third_Party\freemodbus-v1.6\modbus\rtu\mbrtu.c</file>
+            <file>$PROJ_DIR$\..\Middlewares\Third_Party\FreeRTOS\Source\portable\IAR\ARM_CM3\port.c</file>
+            <file>$PROJ_DIR$\..\Middlewares\Third_Party\FreeRTOS\Source\queue.c</file>
+            <file>$PROJ_DIR$\..\Middlewares\Third_Party\FreeRTOS\Source\stream_buffer.c</file>
+            <file>$PROJ_DIR$\stm32_freeModbus\Obj\crc.o</file>
+            <file>$PROJ_DIR$\..\Middlewares\Third_Party\freemodbus-v1.6\modbus\functions\mbfuncother.c</file>
+            <file>$PROJ_DIR$\stm32_freeModbus\Obj\stm32f1xx_hal_timebase_tim.o</file>
+            <file>$PROJ_DIR$\..\Middlewares\Third_Party\FreeRTOS\Source\croutine.c</file>
+            <file>$PROJ_DIR$\..\Middlewares\Third_Party\FreeRTOS\Source\timers.c</file>
+            <file>$PROJ_DIR$\..\Middlewares\Third_Party\FreeRTOS\Source\portable\IAR\ARM_CM3\portasm.s</file>
+            <file>$PROJ_DIR$\stm32_freeModbus\Obj\usart.o</file>
+            <file>$PROJ_DIR$\stm32_freeModbus\Obj\tim.o</file>
+            <file>$PROJ_DIR$\..\Middlewares\Third_Party\freemodbus-v1.6\modbus\functions\mbfuncinput.c</file>
+            <file>$PROJ_DIR$\stm32_freeModbus\Obj\stm32f1xx_hal.o</file>
+            <file>$PROJ_DIR$\stm32_freeModbus\Obj\stm32f1xx_hal_exti.o</file>
+            <file>$PROJ_DIR$\..\Middlewares\Third_Party\FreeRTOS\Source\event_groups.c</file>
+            <file>$PROJ_DIR$\..\Middlewares\Third_Party\freemodbus-v1.6\modbus\functions\mbutils.c</file>
+            <file>$PROJ_DIR$\stm32_freeModbus\Obj\freertos.o</file>
+            <file>$PROJ_DIR$\..\Middlewares\Third_Party\FreeRTOS\Source\portable\MemMang\heap_4.c</file>
+            <file>$PROJ_DIR$\stm32_freeModbus\Obj\stm32f1xx_hal_msp.o</file>
+            <file>$PROJ_DIR$\..\Middlewares\Third_Party\FreeRTOS\Source\CMSIS_RTOS\cmsis_os.c</file>
+            <file>$PROJ_DIR$\..\Middlewares\Third_Party\FreeRTOS\Source\list.c</file>
+            <file>$PROJ_DIR$\stm32_freeModbus\Obj\stm32f1xx_it.o</file>
+            <file>$PROJ_DIR$\..\Middlewares\Third_Party\freemodbus-v1.6\modbus\functions\mbfuncdisc.c</file>
+            <file>$PROJ_DIR$\stm32_freeModbus\Obj\stm32f1xx_hal_cortex.o</file>
+            <file>$PROJ_DIR$\stm32_freeModbus\Obj\system_stm32f1xx.o</file>
+            <file>$PROJ_DIR$\..\Middlewares\Third_Party\FreeRTOS\Source\tasks.c</file>
+        </outputs>
+        <file>
+            <name>[ROOT_NODE]</name>
+            <outputs>
+                <tool>
+                    <name>ILINK</name>
+                    <file> 61</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Middlewares\Third_Party\freemodbus-v1.6\modbus\functions\mbfunccoils.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 95</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 67</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_pwr.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 114</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 44</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Middlewares\Third_Party\freemodbus-v1.6\modbus\ascii\mbascii.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 84</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 83</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_exti.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 143</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 105</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 100</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 57</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Middlewares\Third_Party\freemodbus-v1.6\demo\stm32\port\portevent.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 90</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 89</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_dma.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 119</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 52</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Core\Src\tim.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 140</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 98</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Core\Src\stm32f1xx_hal_timebase_tim.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 135</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 99</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Core\Src\usart.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 139</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 103</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\demo.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 73</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 74</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_crc.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 109</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 56</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Middlewares\Third_Party\freemodbus-v1.6\demo\stm32\port\portserial.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 80</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 91</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_flash_ex.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 111</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 36</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 118</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 54</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc_ex.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 104</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 50</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_tim_ex.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 53</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 58</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Core\Src\stm32f1xx_it.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 151</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 123</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 142</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 40</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_cortex.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 153</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 116</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Core\Src\system_stm32f1xx.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 154</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 125</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_flash.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 121</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 107</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_tim.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 117</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 59</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_uart.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 126</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 55</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio_ex.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 113</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 43</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Middlewares\Third_Party\freemodbus-v1.6\modbus\rtu\mbcrc.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 72</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 76</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Middlewares\Third_Party\freemodbus-v1.6\demo\stm32\port\porttimer.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 85</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 81</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Middlewares\Third_Party\freemodbus-v1.6\modbus\functions\mbfuncdiag.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 82</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 68</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Middlewares\Third_Party\freemodbus-v1.6\modbus\mb.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 70</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 71</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Core\Src\freertos.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 146</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 120</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Core\Src\crc.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 133</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 115</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Core\Src\stm32f1xx_hal_msp.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 148</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 39</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\startup_stm32f103xb.s</name>
+            <outputs>
+                <tool>
+                    <name>AARM</name>
+                    <file> 97</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Core\Src\gpio.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 127</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 106</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\stm32_freeModbus\Exe\stm32_freeModbus.out</name>
+            <outputs>
+                <tool>
+                    <name>OBJCOPY</name>
+                    <file> 65</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Middlewares\Third_Party\freemodbus-v1.6\modbus\functions\mbfuncholding.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 92</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 77</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Middlewares\Third_Party\freemodbus-v1.6\modbus\rtu\mbrtu.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 69</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 75</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Middlewares\Third_Party\FreeRTOS\Source\portable\IAR\ARM_CM3\port.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 102</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 62</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Middlewares\Third_Party\FreeRTOS\Source\queue.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 122</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 60</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Middlewares\Third_Party\FreeRTOS\Source\stream_buffer.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 49</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 47</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Middlewares\Third_Party\freemodbus-v1.6\modbus\functions\mbfuncother.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 93</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 79</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Middlewares\Third_Party\FreeRTOS\Source\croutine.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 96</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 63</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Middlewares\Third_Party\FreeRTOS\Source\timers.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 124</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 46</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Middlewares\Third_Party\FreeRTOS\Source\portable\IAR\ARM_CM3\portasm.s</name>
+            <outputs>
+                <tool>
+                    <name>AARM</name>
+                    <file> 101</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Middlewares\Third_Party\freemodbus-v1.6\modbus\functions\mbfuncinput.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 87</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 78</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Middlewares\Third_Party\FreeRTOS\Source\event_groups.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 110</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 48</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Middlewares\Third_Party\freemodbus-v1.6\modbus\functions\mbutils.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 88</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 86</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Middlewares\Third_Party\FreeRTOS\Source\portable\MemMang\heap_4.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 51</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 42</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Middlewares\Third_Party\FreeRTOS\Source\CMSIS_RTOS\cmsis_os.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 112</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 45</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Middlewares\Third_Party\FreeRTOS\Source\list.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 108</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 37</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Middlewares\Third_Party\freemodbus-v1.6\modbus\functions\mbfuncdisc.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 94</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 66</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Middlewares\Third_Party\FreeRTOS\Source\tasks.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 38</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 41</file>
+                </tool>
+            </outputs>
+        </file>
+    </configuration>
+</project>

@@ -78,7 +78,7 @@
                 </option>
                 <option>
                     <name>OGChipSelectEditMenu</name>
-                    <state>STM32F103C8	ST STM32F103C8</state>
+                    <state>STM32F103RB	ST STM32F103RB</state>
                 </option>
                 <option>
                     <name>GenLowLevelInterface</name>
@@ -138,7 +138,7 @@
                 </option>
                 <option>
                     <name>GFPUDeviceSlave</name>
-                    <state>STM32F103C8	ST STM32F103C8</state>
+                    <state>STM32F103RB	ST STM32F103RB</state>
                 </option>
                 <option>
                     <name>FPU2</name>
@@ -1063,9 +1063,6 @@
                 </file>
                 <file>
                     <name>$PROJ_DIR$\..\Core\Src\main.c</name>
-                    <excluded>
-                        <configuration>stm32_freeModbus</configuration>
-                    </excluded>
                 </file>
                 <file>
                     <name>$PROJ_DIR$\..\Core\Src\stm32f1xx_hal_msp.c</name>
@@ -1083,9 +1080,6 @@
                     <name>$PROJ_DIR$\..\Core\Src\usart.c</name>
                 </file>
             </group>
-            <file>
-                <name>$PROJ_DIR$\..\demo.c</name>
-            </file>
             <file>
                 <name>$PROJ_DIR$\..\Middlewares\Third_Party\freemodbus-v1.6\demo\stm32\port\port.h</name>
             </file>

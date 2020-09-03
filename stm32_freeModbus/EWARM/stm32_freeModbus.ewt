@@ -1226,9 +1226,6 @@
                 </file>
             </group>
             <file>
-                <name>$PROJ_DIR$\..\demo.c</name>
-            </file>
-            <file>
                 <name>$PROJ_DIR$\..\Middlewares\Third_Party\freemodbus-v1.6\demo\stm32\port\port.h</name>
             </file>
             <file>

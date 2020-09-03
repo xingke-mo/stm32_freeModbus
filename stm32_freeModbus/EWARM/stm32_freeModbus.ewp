@@ -366,6 +366,7 @@
                     <state>$PROJ_DIR$\..\Middlewares\Third_Party\freemodbus-v1.6\modbus\rtu</state>
                     <state>$PROJ_DIR$\..\Middlewares\Third_Party\freemodbus-v1.6\modbus\ascii</state>
                     <state>$PROJ_DIR$\..\Drivers\NCN5120</state>
+                    <state>$PROJ_DIR$\..\Drivers\NCN5120_1</state>
                 </option>
                 <option>
                     <name>CCStdIncCheck</name>
@@ -1113,6 +1114,9 @@
             <name>NCN5120</name>
             <file>
                 <name>$PROJ_DIR$\..\Drivers\NCN5120\ncn5120.c</name>
+                <excluded>
+                    <configuration>stm32_freeModbus</configuration>
+                </excluded>
             </file>
             <file>
                 <name>$PROJ_DIR$\..\Drivers\NCN5120\ncn5120.h</name>
@@ -1175,6 +1179,12 @@
                 <name>$PROJ_DIR$\..\Drivers\TPUART\include\TPUART.h</name>
             </file>
         </group>
+        <file>
+            <name>$PROJ_DIR$\..\Drivers\NCN5120_1\ncn5120.c</name>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Drivers\NCN5120_1\ncn5120.h</name>
+        </file>
     </group>
     <group>
         <name>Middlewares</name>

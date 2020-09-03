@@ -1316,6 +1316,12 @@
                 <name>$PROJ_DIR$\..\Drivers\TPUART\include\TPUART.h</name>
             </file>
         </group>
+        <file>
+            <name>$PROJ_DIR$\..\Drivers\NCN5120_1\ncn5120.c</name>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Drivers\NCN5120_1\ncn5120.h</name>
+        </file>
     </group>
     <group>
         <name>Middlewares</name>
